@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <h2>Simple text inputs</h2>
+<form action="lists.html" method="get">
+    <intput type="text" name="prenume" placeholder="Prenume"/> <br>
+    <input type="text" name="numeFamilie" placeholder="Nume de familie"/>
+
+</form>
+<br>
+<form action="lists.html" method="get">
+    <label type="text" name="prenume" placeholder="Prenume"/> <br>
+    <input type="text" name="numeFamilie" placeholder="Nume de familie"/>
+
+</form>
+<br>
+
+<input type="submit" value="Register">
+
+<br>
+<br>
+<h2>Password inputs</h2>
+<form action="lists.html" method="post">
+<input type="text" name="username" placeholder="Username"><br>
+<input type="password" name="password" placeholder="Password"> <br>
+<input type="submit" value="Submit">
+</form>
+
+<br>
+<br>
+<h2>Checkbox</h2>
+<form action="lists.html">
+    <label>Mustar iute</label>
+    <input type="checkbox" name="mustar" id="mustar" value="iute">
+    <br>
+    <label>Mustar dulce</label>
+    <input type="checkbox" name="mustar" id="mustar" value="dulce">
+    <br>
+    <button>Submit</button>
+</form>
+
+<br>
+<h2>Radio</h2>
+<form action="lists.html">
+    <input type="radio" name="size" id="xs" value="xs">
+    <label for="xs">XS</label>
+    <br>
+    <input type="radio" name="size" id="xs"value="s">
+    <label for="s">S</label>
+    <br>
+    <input type="radio" name="size" id="xs"value="m">
+    <label for="m">M</label>
+    <br>
+    <input type="submit">
+
+</form>
+<br>
+
+<h2>Reset</h2>
+<form action="lists.html" method="post">
+    <input type="text" name="username" placeholder="Username"><br>
+    <input type="password" name="password" placeholder="Password"> <br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+
+</form>
+<br>
+<h2>Select</h2>
+<form action="lists.html">Cursuri
+    <select name="cursuri">
+        <option value="java">Java</option>
+        <option value="c">C</option>
+        <option value="c++">C++</option>
+
+    </select>
+<input type="submit">
+</form>
+
+<br>
+
+<button>Submit</button>
+
+<br>
+<h2>Text area</h2>
+<form action="lists.html">
+    <textarea name="story" id="story" rows="20"></textarea>
+
+</form>
+<br>
+
+<h2>Alert</h2>
+<input type="button" onclick="alert('Hello!')" value="Click!">
+
+<br>
+<h2>Date inputs</h2>
+
+<form>
+    <label for="data1">Introduceti o data </label><br>
+    <input type="date" name="data1" max="1979-12-31"><br>
+
+    <label for="data2">Introduceti o data </label><br>
+    <input type="date" name="data2" max="2050-12-31"><br>
+</form>
+<br>
+
+<h2>File</h2>
+<form>
+    <input type="file" name="myFile">
+</form>
+<br>
+<h2>Range</h2>
+<form>
+    <input type="range" name="nota" min="0" max="10">
+</form>
+<br>
+<h2>Number</h2>
+<form>
+    <input type="number" name="quantity" min="0" max="10">
+</form>
+
+<br>
+
+<h2>Email</h2>
+<form>
+    <input type="email" name="email">
+</form>
+
+<br>
+
+required
+readonly
+selected
+
+
+<br>
+</body>
+</html>
