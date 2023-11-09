@@ -1,0 +1,34 @@
+p{
+    font-size: 20px;
+}
+
+h1{
+    color:red;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/* # sa selectam pentru ID-ul specificat */
+#test {
+    border: 1px solid red;
+}
+
+/* * selectam toate elem din DOM  */
+*{
+    background-color: lightblue;
+}
+
+[exemplu] {
+    background-color: burlywood;
+}
+
+[exemplu="a"] {
+    color: blue;
+}
+
+/* care incepe cu "man" */
+[exemplu^="man"] {
+    color: yellow;
+}
