@@ -61,9 +61,9 @@ a:focus {
     font-size: 20px;
 }
 
-:target {
+/* :target {
     
-}
+} */
 
 input[type="checkbox"]:checked {
     width: 30px;
@@ -119,6 +119,8 @@ p:last-of-type{
 p.large-text {
     font-size: 12px;
 }
+
+
 
 
 
