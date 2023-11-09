@@ -32,3 +32,94 @@ h1{
 [exemplu^="man"] {
     color: yellow;
 }
+
+[exemplu$="aaa"] {
+    color: green;
+}
+
+[exemplu$="a"] {
+    color: pink;
+}
+
+a:link{
+    color:lightblue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: green
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+a:focus {
+    font-size: 20px;
+}
+
+:target {
+    
+}
+
+input[type="checkbox"]:checked {
+    width: 30px;
+    height: 30px;
+}
+
+p:first-child {
+    color: magenta;
+}
+
+p:last-child {
+    color: green;
+}
+
+p:nth-child(3){
+    border: 1px red solid;
+}
+
+p:not(nth-child(3)){
+    border: 1px blue solid;
+}
+
+p:last-of-type{
+    color: green;
+}
+
+.my-div::before{
+    content: "before";
+    margin: 10px;
+    color: blue;
+}
+
+.my-div::after{
+    content: "after";
+    margin: 10px;
+    color: red;
+}
+
+.large-text::first-line {
+    color:red;
+}
+
+.large-text::first-letter {
+    color:orange;
+}
+
+.large-text::selection {
+    background-color: yellow;
+}
+
+/* --------------- */
+
+p.large-text {
+    font-size: 12px;
+}
+
+
+
+
