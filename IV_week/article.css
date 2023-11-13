@@ -20,5 +20,5 @@ p::first-letter{
 }
 
 .time li:last-child{
-    color: red;
+    color: rgb(122, 23, 23);
 }
