@@ -1,0 +1,153 @@
+p {
+  font-size: 20px;
+}
+
+h1 {
+  color: red;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#test {
+  background-color: lightblue;
+}
+
+/* 
+* {
+  border: 1px solid red;
+} */
+
+[exemplu] {
+  background-color: burlywood;
+}
+
+[exemplu="a"] {
+  color: blue;
+}
+
+[exemplu^="man"] {
+  color: yellow;
+}
+
+[exemplu$="aac"] {
+  color: green;
+}
+
+[exemplu*="an"] {
+  border: 3px solid red;
+}
+
+a:link {
+  color: lightblue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:hover {
+  background-color: aqua;
+}
+
+input {
+  width: 50px;
+}
+
+input:focus {
+  width: 100px;
+}
+
+#ceva:target {
+  color: orange;
+  font-size: 50px;
+}
+
+input[type="checkbox"]:checked {
+  width: 30px;
+  height: 30px;
+}
+/* 
+p:first-child {
+  color: blue;
+}
+
+span:first-of-type {
+  color: yellow;
+}
+
+span:nth-of-type(2) {
+  color: lime;
+}
+
+p:last-child {
+  color: green;
+}
+
+p:nth-child(3) {
+  border: 1px red solid;
+}
+
+p:not(:nth-child(3)) {
+  border: 1px blue solid;
+}
+
+p:last-of-type {
+  color: green;
+}
+
+.my-div::before {
+  content: "before";
+  margin: 10px;
+  color: blue;
+}
+
+.my-div::after {
+  content: "after";
+  margin: 10px;
+  color: red;
+}
+
+.large-text::first-line {
+  color: red;
+}
+
+.large-text::first-letter {
+  color: blue;
+}
+
+.large-text::selection {
+  background-color: yellowgreen;
+} */
+
+/* --------------------- */
+
+p.large-text {
+  font-size: 12px;
+}
+/* 
+div p {
+  color: blue;
+} */
+
+/* .first-div > p {
+  color: red;
+} */
+
+p + span {
+  color: red;
+}
+
+p ~ span {
+  color: blue;
+}
+
+p,
+span {
+  background: lightcoral;
+}
