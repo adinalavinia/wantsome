@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 24px;
+}
+
+.week li:nth-child(2){
+    color:red;
+}
+
+.week li:nth-child(3){
+    color:red;
+}
+
+
+.time li:first-child{
+    color: red;
+}
+
+.time li:last-child{
+    color: red;
+}
