@@ -60,6 +60,9 @@ main {
     height: 100%;
     width: calc(100% - 404px);
     float: left;
+    
+    position: relative;      
+    /* adaugat la tema */
 
 }
 
@@ -79,3 +82,18 @@ img {
     text-align: center;
 }
 
+/* adaugat la tema */
+
+.content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 30px;
+    text-align: justify;
+}
+
+span {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+
+}
