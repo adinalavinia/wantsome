@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 30px;
+    background-color: rgb(219, 49, 63);
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.aside1:nth-child(1) {
+    background-color: yellow;
+    width: 25%;
+}
+
+.aside2:nth-of-type(2) {
+    background-color: lightblue;
+    width: 60%;
+}
+
+.aside3:nth-child(3) {
+    background-color: lightcoral;
+    width: 25%;
+}
+
+.footer {
+    background-color: green;
+    height: 30px;
+}
