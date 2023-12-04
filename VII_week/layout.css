@@ -1,0 +1,37 @@
+.container {
+    width: 1000px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: [c1] 200px [c2] 200px [c3] 150px [c4] 50px [c5];
+    grid-template-rows: [r1] 100px [r2] 100px [r3] 100px [r4] 100px [r5];
+    gap: 10px;
+}
+
+.top{
+    background-color: aquamarine;
+
+}
+
+.middle{
+    background-color: blue;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+
+
+}
+
+.bottom {
+    background-color: yellow;
+    grid-row: 2; 
+}
+
+.wide {
+    background-color: magenta;
+    grid-row: 3;
+    grid-column: 1 / span 2;
+}
+
+.tall {
+    background-color: green;
+    grid-row: 1/ span 3;
+}
