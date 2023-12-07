@@ -1,0 +1,31 @@
+.element-animate {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: change-color 2s;
+    animation-duration: 2s infinte ease-in-out;
+}
+/* 
+@keyframes change-color {
+    from {
+        background-color: red;
+
+    }
+    to {
+        background-color: blue;
+
+    }
+} */
+
+@keyframes change-color {
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: green;
+        rotate: 180deg;
+    }
+    90% {
+        background-color: purple;
+    }
+}
