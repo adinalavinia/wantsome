@@ -1,0 +1,25 @@
+@import "./shared";
+
+
+header {
+    background-color: #232323;
+    height: 50px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    // gap: 10px;
+
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        &:hover, &.active {
+            background-color: lime;
+            color: #232323;
+        }
+    }
+}
