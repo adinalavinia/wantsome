@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-columns: 100px auto;
+}
+
+.sidebar-container {
+  width: 100px;
+  height: 100vh;
+  display: grid;
+  background-color: #3a3a3a;
+  color: white;
+  position: fixed;
+  grid-column: 1;
+  grid-template-rows: repeat(5, 100px) auto 100px;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+.sidebar-container .material-symbols-outlined {
+  display: block;
+  margin-bottom: 10px;
+}
+.sidebar-container .light-mode {
+  grid-row-start: 7;
+}
+
+main {
+  grid-column: 2;
+}/*# sourceMappingURL=sidebar.css.map */

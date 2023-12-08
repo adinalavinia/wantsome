@@ -1,0 +1,20 @@
+header {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 200px auto 50px;
+  color: white;
+  justify-items: center;
+  align-items: center;
+}
+header .logo {
+  font-size: 24px;
+}
+header .search {
+  display: grid;
+  grid-template-columns: 40px auto 150px;
+  background-color: #999;
+  width: 100%;
+}
+header .search-input {
+  width: 100%;
+}/*# sourceMappingURL=header.css.map */
