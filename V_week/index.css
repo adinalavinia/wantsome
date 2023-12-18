@@ -58,6 +58,7 @@ main {
     height: 100%;
     width: calc(100% - 404px);
     float: left;
+
     position: relative;      
     /* adaugat la tema */
 
