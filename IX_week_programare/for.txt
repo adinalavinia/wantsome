@@ -1,0 +1,42 @@
+// gasirea nr tel Costel Popescu
+
+proprietari = ["Adrian Ionescu", "C. Constantinescu", "Costel Popescu"]
+nr_telefon = ["0761456789", "0728765557", "0756456345"]
+nrProprietari = 3
+
+for (i=0; i < numarProprietari; i++) {
+    if (proprietari[i] === "Costel Popescu") {
+        nrTelCautat = nr_telefon[i]
+    }
+}
+
+
+
+
+// gasirea celui mai mic numar dintr-o lista
+
+numere = [5, -3, 1, 7, 0, -22, 100, 4, 55]
+numarElement = 9
+min = numere[0]
+
+for (i = 1; i < numarElement; i++) {
+    if (numere[i] < min) {
+       min = numere[i]
+    }
+}
+
+
+// vanzarea de bilete de cinema cu reducere de 10% copiilor sub 15 ani
+
+pretBilet = 20
+persoane = [10, 16, 18, 22, 9, 55]
+nrPers = 6
+pretBiletRedus = pretBilet - (pretBilet * 0.1)
+
+show <varsta> <pretBilet redus>
+
+for (i=0; i < nrPers; i++) {
+    if (persoane[i] < 15) {
+        show persoane[i] pretBiletRedus
+    }
+}
