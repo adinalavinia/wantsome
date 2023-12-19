@@ -40,3 +40,358 @@ for (i=0; i < nrPers; i++) {
         show persoane[i] pretBiletRedus
     }
 }
+
+
+
+
+---------------------------------------versiune George--------------------------------
+
+
+maximNumber = 13
+sirDeCaractere = "sir de caractere; akjsdhaksj"
+
+// tipuri de variabile
+
+  // numere
+  variabilaNumar1 = 13
+  variabilaNumar2 = 13.4
+
+  // strings
+  caracter = "a"
+  sirDeCaractere = "akjshdkjas akjsdkajshd asdjgasjhgdasbda s dahsd"
+
+  // booleans (true / false)
+  amITrue = false
+  amIFalse = true
+
+  // arrays / sir de elemente
+  myArray = [12, 43, 43]
+  myArray = ["asd", "asdas", "asdasd"]
+  myArray = ["asd", 123, true]
+
+// opratori binari
+  // operatori aritmetici
+
+    // adunare
+    2 + 2
+    mySum = 2 + 2
+
+    // scadere
+    4 - 2
+    sub = 4 - 2
+
+    // inmultire
+    4 * 2
+    product = 4 * 2
+
+    // impartire
+    resultat = 9 / 2 // 4.5
+
+    // modulo (restul impartirii)
+    rest = 9 % 2 // 1
+
+// operatori de comparare
+  // egalitate
+  2 == 2 // true
+  2 == 1 // false
+  result = 2 == 2 // true
+
+  "hello" === "hello" // true
+  "hello" === "olleh" // false
+
+  true === true // true
+
+    // limbaj normal
+    2 == "2" // false
+
+    // javascript
+    2 == "2" // true
+    2 === "2" // false
+
+  // not / diferentiere
+  2 != 3 // true
+
+  "hello" !== "hello" // false
+  "hello" !== "olleh" // true
+
+    // limbaj normal
+    2 != "2" // true
+
+    // javascript
+    2 != "2" // false
+    2 !== "2" // true
+
+  // greater
+  2 > 3 // false
+  2 > 1 // true
+
+  // greater or equal
+  2 >= 3 // false
+  2 >= 2 // true
+
+  // smaller
+  2 < 3 // true
+  2 < 1 // fale
+
+  // smaller or equal
+  2 <= 3 // true
+  2 <= 2 // true
+
+// operatori logici
+  // and logic (si)
+  true && false // false
+  false && false // false
+  true && true // true
+
+  // or logic (sau)
+  true || false // true
+  false || false // false
+  true || true // true
+
+// Operatori unari
+  // opeartori aritmetici
+  -4 => -4
+  +4 => 4
+  +(-4) => -4
+  -(-4) => 4
+
+  // negarea
+  !true => false
+  !false => true
+
+  "asdasd" => true
+  !"asdasd" => false
+
+
+// Conditional statement - if / else (daca / altfel)
+
+daca statement atunci
+  executam instructiuni
+altfel
+  executam alte instructiuni
+
+sum = 0
+daca sum <= 0 atunci
+  sum = 4
+altfel
+  sum = 5
+
+if (sum <= 0) {
+  sum = 4
+}
+
+if (sum <= 0) {
+  sum = 4
+} else {
+  sum = 5
+}
+
+
+// Loops
+  // while
+
+cat timp statement atunci
+  executa instructiuni
+
+while (statement) {
+  instructiuni
+}
+
+-> calculeaza suma numerelor de la 1 la 10
+
+sum = 0
+contor = 1
+while (contor <= 10) {
+  sum = sum + contor
+}
+
+sum -> 0
+contor -> 1
+1 <= 10 -> true
+  sum -> 0 + 1 -> 1
+1 <= 10 -> true
+  sum -> 1 + 1 -> 2
+1 <= 10 -> true
+  sum -> 2 + 1 -> 3
+
+sum = 0
+contor = 1
+while (contor <= 10) {
+  sum = sum + contor
+  contor = contor + 1
+}
+
+sum -> 0
+contor -> 1
+1 <= 10 -> true
+  sum -> 0 + 1 -> 1
+  contor -> 1 + 1 -> 2
+2 <= 10 -> true
+  sum -> 1 + 2 -> 3
+  contor -> 2 + 1 -> 3
+3 <= 10 -> true
+  ........
+10 <= 10 -> true
+  sum -> 45 + 10 -> 55
+  contor -> 10 + 1 -> 11
+11 <= 10 -> false
+
+sum -> 55
+contor -> 11
+
+// do / while loop
+do {
+  instructiuni
+} while (statement)
+
+// for loop
+pentru asignare; statement; instructiune executa
+  instructiuni
+
+
+for (asignare; statement; instructiune) {
+  instructiuni
+}
+
+-> suma de la 1 la 10
+
+sum = 0
+for (contor = 1; contor <= 10; contor = contor + 1) {
+  sum = sum + contor
+}
+
+sum -> 0
+contor -> 1
+1 <= 10 -> true
+  sum -> 0 + 1 -> 1
+  contor -> 1 + 1 -> 2
+2 <= 10 -> true
+  sum -> 1 + 1 -> 2
+  contor -> 2 + 1 -> 3
+  ......
+
+
+// arrays
+
+myArray = [1, 2, 4, 5, 6]
+          [0, 1, 2, 3, 4] -> positions
+
+firstElement = myArray[0] -> 1
+thirdElement = myArray[2]
+
+-------------------------------
+
+numbers = [3, 5, 7, 9, 10]
+numarulElementelor = 5
+sum = 0
+
+for (i = 0; i < numarulElementelor; i = i + 1) {
+  elementCurent = numbers[i]
+  sum = sum + elementCurent
+}
+
+mediaAritmetica = sum / numarulElementelor
+
+////
+numbers -> [3, 5, 7, 9, 10]
+numarulElementelor -> 5
+sum -> 0
+
+i -> 0
+0 < 5 -> true
+  elementCurent -> 3
+  sum = 0 + 3 -> 3
+  i -> 0 + 1 -> 1
+1 < 5 -> true
+  elementCurent -> 5
+  sum = 3 + 5 -> 8
+  i -> 2
+2 < 5 -> true
+  elementCurent -> 7
+  sum = 8 + 7 -> 15
+  i -> 3
+3 < 5 -> true
+  elementCurent -> 9
+  sum = 15 + 9 -> 24
+  i -> 4
+4 < 5 -> true
+  elementCurent -> 10
+  sum = 24 + 10 -> 34
+  i -> 5
+5 < 5 -> false
+
+mediaAritmetica -> 34 / 5 -> 6.8
+
+------------------------------
+-> afisati numarul de telefon a lui Costel Popescu
+
+properietari = ["Adrian Ionescu", "C. Constantiescu", "Costel Popescu"]
+nr_telefon =   ["0761234567",     "07454253746",      "0789582645"]
+numarProprietari = 3
+
+for (i = 0; i < numarProprietari; i = i + 1) {
+  if (properietari[i] === "Costel Popescu") {
+    numarGasit = nr_telefon[i]
+  }
+}
+
+i -> 0
+0 < 3 -> true
+  properietari[i] -> properietari[0] -> "Adrian Ionescu"
+  "Adrian Ionescu" === "Costel Popescu" -> false
+  i -> 1
+1 < 3 -> true
+  properietari[i] -> properietari[1] -> "C. Constantiescu"
+  "C. Constantiescu" === "Costel Popescu" -> false
+  i -> 2
+2 < 3 -> true
+  properietari[i] -> properietari[2] -> "Costel Popescu"
+  "Costel Popescu" === "Costel Popescu" -> true
+    numarGasit -> nr_telefon[i] -> nr_telefon[2] -> "0789582645"
+  i -> 3
+3 < 3 -> false
+
+-------------------------------------
+
+-> gasiti cel mai mic numar din lista
+
+numere = [5, -3, 1, 7, 0, -22, 100, 4, 55]
+numarElemente = 9
+
+celMaiMicNumar = numere[0]
+for (i = 0; i < numarElemente; i++) {
+  if (numere[i] < celMaiMicNumar) {
+    celMaiMicNumar = numere[i]
+  }
+}
+
+--------------------------------------
+
+-> sa se aplice o reducere de 10% copiilor sub 15 ani
+
+pretBilet = 20
+persoane = [10, 16, 18, 22, 9, 55]
+nrPersoane = 6
+pretRedus = pretBilet - (pretBilet * 10 / 100)
+
+for (i = 0; i < nrPersoane; i++) {
+  if (persoane[i] < 15) {
+    show persoane[i] pretRedus
+  }
+}
+
+
+
+--------------------------------------
+i = 2
+valoare este evaluata dupa instructiune
+i++ -> i = i + 1  |  i -> 2
+i -> 3 
+
+valoare este evaluata in timpul instructiunii
+++i -> i = i + 1 | i -> 3
+
+i--
+--i
+
+
