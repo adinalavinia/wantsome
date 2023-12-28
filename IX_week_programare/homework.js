@@ -73,5 +73,105 @@ function sum(){
 
 console.log(sum());
 
-// creati o functie care sa returneze un array care sa contina un 
+// creati o functie care sa returneze un array care sa nu contina null si undefined tot din initialValue
 
+
+
+
+
+
+
+
+
+//
+
+
+const age1 = 15;
+switch (age1) {
+    case 17:
+        console.log("am 17 ani");
+        break;
+    case 20: 
+        console.log("am 20 ani");
+        break;
+    case 16: 
+        console.log("am 15 ani");
+        break;
+    default:
+        console.log("nu stiu cati ani am");
+        break;
+
+}
+
+
+
+// 
+
+// let age = prompt("introdu varsta cumparatorului");
+// let price = prompt("introdu pretul biletului");
+
+// if (age < 15){
+//     let priceDiscount = price - (price * 0.25);
+//     console.log("pret redus = " + priceDiscount);
+// } else if (age >=15 && age <= 25){
+//     let priceDiscount = price - (price * 0.10);
+//     console.log("pret redus = " + priceDiscount);
+// } else if (25 <= age) {
+//     console.log("nu beneficiaza de reducere");
+// }
+
+  
+
+
+
+//
+
+
+let buyerAge = 17;
+let price2 = 100;
+switch(buyerAge) {
+    case 15:
+        console.log(price2 - (price2 * 0.25));
+        break;
+    case 16:
+        console.log(price2 - (price2 * 0.20));
+        break;
+    case 17:
+        console.log(price2 - (price2 * 0.15));
+        break;
+    case 18:
+        console.log(price2 - (price2 * 0.10));
+        break;
+    default:
+        console.log("fara reducere");
+}
+
+
+
+
+
+
+
+
+
+// pare
+
+
+let number = 1;
+
+for (let i=1; i<=100; i++) {
+    if(i % 2 == 0){
+        console.log(i);
+    }
+}
+
+// numere impare
+
+let i = 1;
+
+while (i <= 100) {
+    if(i % 2 != 0){
+        console.log(i)
+    }
+    i++;
+}
